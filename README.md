@@ -1,6 +1,6 @@
 # Api Rest con Spring boot CRUD_H2
 
-****API REST************************************************************************************************************************************************
+****API REST********************************************************************************************************************************
 Una API REST (Representational State Transfer) es una interfaz de programación de aplicaciones que sigue los principios del estilo arquitectónico REST.
 Permite a los clientes acceder y manipular recursos a través de operaciones HTTP estándar, utilizando formatos de datos comunes como JSON o XML. La separación
 cliente-servidor, la transferencia de estado y el uso de URIs y métodos HTTP son algunas de las características clave de una API REST.
@@ -80,15 +80,20 @@ http://localhost:8080/fruta/getAll
  Para hacer un CRUD (Create, Read, Update, Delete) con H2, que es una base de datos en memoria, puedes seguir los siguientes pasos:
 
   -1 Configurar la dependencia de H2: En tu archivo pom.xml (si estás utilizando Maven) o build.gradle (si estás utilizando Gradle),
-  asegúrate de tener la dependencia de H2 agregada. 
-  -2 Configurar la conexión a la base de datos: En el archivo de configuración de Spring Boot (application.properties o application.yml),
-  configura la conexión a la base de datos H2. 
+  asegúrate de tener la dependencia de H2 agregada.
+  
+  -2 Configurar la conexión a la base de datos: En el archivo de configuración de Spring Boot (application.properties o application.yml),configura la conexión a la base de datos H2.
+   
   -3 Esto configura la base de datos H2 en memoria con la URL jdbc:h2:mem:testdb, el controlador JDBC org.h2.Driver, y el usuario 
     contraseña predeterminados.
+    
     Crear una entidad: Crea una clase que represente la entidad que deseas almacenar en la base de datos. Anota la clase con @Entity
     y define las propiedades y relaciones necesarias. 
+    
   -4 Crear un repositorio: Crea una interfaz que extienda JpaRepository de Spring Data JPA para realizar operaciones CRUD en la entidad.
+  
   -5 Implementar el CRUD: En tu servicio o controlador, inyecta el repositorio y utiliza sus métodos para realizar operaciones CRUD en la base de datos.
+  
   -6 Probar el CRUD: Puedes probar el CRUD utilizando un cliente HTTP, como Postman, o escribiendo pruebas unitarias.
   
 
