@@ -58,9 +58,7 @@ Dependencias:
 Tenemos una entidad llamada "Fruta", que dispone de las siguientes propiedades:
 
 int id
-
 String nombre
-
 int pesoKg
 
 Aprovechando la especificación JPA, tendrás que persistir esta entidad a una base de datos H2, siguiendo el patrón MVC. 
@@ -85,8 +83,8 @@ http://localhost:8080/fruta/getAll
 
 ## Enlaces
 
-   - [Enlace H2]([(https://www.youtube.com/watch?v=M7lhQMzzHWU&t=199s)])
-   - [Enlace H2]([(https://www.youtube.com/watch?v=hzEpwm_Ew7I)])
+   - [Enlace H2: (https://www.youtube.com/watch?v=M7lhQMzzHWU&t=199s)]
+   - [Enlace H2:(https://www.youtube.com/watch?v=hzEpwm_Ew7I)] 
      
 ## Uso
 
