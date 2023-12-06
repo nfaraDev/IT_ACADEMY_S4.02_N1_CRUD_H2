@@ -30,15 +30,25 @@ clientes explorar y acceder a otros recursos de manera dinámica.
 Accede en la página ->https://start.spring.io/, y genera un proyecto Spring boot con las siguientes características:
 
 PROJECT (gestor de dependencias): Maven o Gradle.
+
 LANGUAGE:                         Java.
+
 SPRING BOOT:                     La última versión estable.
+
 PROJECT METADATA Group:          cat.itacademy.barcelonactiva.apellidos.nombre.s04.t02.n01
+
 Artifact:                        S04T02N01GognomsNom
+
 Name:                            S04T02N01GognomsNom
+
 Description:                     S04T02N01GognomsNom
+
 Package name:                    cat.itacademy.barcelonactiva.apellidos.nombre.s04.t02.n01
+
 PACKAGIN:                        Jar
+
 JAVA:                            Mínimo versión 11
+
 Dependencias:
                                  Spring Boot DevTools
                                  Spring Web
@@ -46,8 +56,11 @@ Dependencias:
                                  H2 Database
 
 Tenemos una entidad llamada "Fruta", que dispone de las siguientes propiedades:
+
 int id
+
 String nombre
+
 int pesoKg
 
 Aprovechando la especificación JPA, tendrás que persistir esta entidad a una base de datos H2, siguiendo el patrón MVC. 
